@@ -55,6 +55,7 @@ nav {
 }
 
 .bottom_layout {
+    text-align: center;
     background-color: yellow;
     height: 250px;
     display: flex;
@@ -80,8 +81,20 @@ nav {
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    height: 250px;
+    background-color: orange;
+    justify-content: space-around;
+}
 
-
+.bottom_footer {
+    height: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
