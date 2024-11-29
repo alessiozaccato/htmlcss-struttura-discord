@@ -1,7 +1,7 @@
+
 header {
     background-color: blue;
     height: 300px;
-    
 }
 
 nav {
@@ -15,7 +15,7 @@ nav {
 .center_header_nav {
     flex-basis: calc( 90% / 5 );
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container_hero {
@@ -23,40 +23,72 @@ nav {
     height: 250px;
     align-items: center;
     justify-content: center;
+    
 
 }
 
 .hero {
     height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 30px;
+    text-align: center;
 }
 
 .hero_buttons{
     display: flex;
-    gap: 30%;
+    justify-content: center;
+    gap: 1em;
+}
+
+.right_layout {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
 }
 
 .left_layout {
-    background-color: green;
-    height: 300px;
+    background-color: blueviolet;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom_layout {
+    background-color: yellow;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_bottom {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+.bottom_button {
     display: flex;
     justify-content: center;
 }
 
-.left_layout figure {
+.bottom_layout figure {
     display: flex;
-    align-items: center;
-}
-
-.left_layout article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
