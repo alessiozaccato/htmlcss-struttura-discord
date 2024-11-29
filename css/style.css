@@ -1,0 +1,64 @@
+header {
+    background-color: blue;
+    height: 300px;
+    
+}
+
+nav {
+    background-color:red ;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.center_header_nav {
+    flex-basis: calc( 90% / 5 );
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_hero {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+}
+
+.hero_buttons{
+    display: flex;
+    gap: 30%;
+}
+
+.left_layout {
+    background-color: green;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.left_layout figure {
+    display: flex;
+    align-items: center;
+}
+
+.left_layout article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
