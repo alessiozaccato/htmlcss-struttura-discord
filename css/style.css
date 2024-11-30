@@ -44,15 +44,15 @@ nav {
     justify-content: center;
     background-color: green;
     padding-inline:10%;
-    gap:2em;
+    gap:1em;
 }
 
 .right_layout figure,
 .left_layout figure,
 .bottom_layout figure {
-    height: 100px;
-    width: 200px;
+    height: 150px;
     background-color: violet;
+    flex-basis: 50%;
 }
 
 .left_layout {
@@ -62,7 +62,7 @@ nav {
     align-items: center;
     justify-content: center;
     padding-inline:10%;
-    gap:2em;
+    gap:1em;
 }
 
 .bottom_layout {
@@ -74,8 +74,6 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     padding-inline:10%;
-    gap:1em;
-    
 }
    
 .main_bottom {
@@ -97,7 +95,6 @@ footer {
     height: 250px;
     background-color: orange;
     display: flex;
-    padding-inline: 10%;
     justify-content: center;
     gap: 1em;
     padding-block: 1em;
@@ -112,7 +109,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-inline: 10%;
 }
 
 
