@@ -52,7 +52,15 @@ nav {
 .bottom_layout figure {
     height: 150px;
     background-color: violet;
-    flex-basis: 50%;
+    flex-basis: 60%;
+}
+
+.right_layout article,
+.left_layout article,
+.bottom_layout article{
+    height: 150px;
+    background-color: aqua;
+    flex-basis: 40%;
 }
 
 .left_layout {
@@ -69,10 +77,6 @@ nav {
     text-align: center;
     background-color: yellow;
     height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     padding-inline:10%;
 }
    
@@ -108,7 +112,8 @@ footer {
     background-color: red;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-inline: 10%;
 }
 
 
